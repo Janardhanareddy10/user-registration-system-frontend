@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://user-registration-system-7.onrender.com/api/users";
+const API_URL = "http://13.49.18.19/api/users";
 
 // ✅ Fetch all users
 export const fetchUsers = createAsyncThunk("users/fetchUsers", async () => {

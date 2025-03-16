@@ -11,7 +11,7 @@ var _axios = _interopRequireDefault(require("axios"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var API_URL = "https://user-registration-system-7.onrender.com/api/users"; // ✅ Fetch all users
+var API_URL = "http://13.49.18.19/api/users"; // ✅ Fetch all users
 
 var fetchUsers = (0, _toolkit.createAsyncThunk)("users/fetchUsers", function _callee() {
   var response;
