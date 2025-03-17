@@ -11,7 +11,7 @@ var _axios = _interopRequireDefault(require("axios"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var API_URL = "http://51.20.137.91/api/users"; // ✅ Fetch all users
+var API_URL = "http://16.171.241.113/api/users"; // ✅ Fetch all users
 
 var fetchUsers = (0, _toolkit.createAsyncThunk)("users/fetchUsers", function _callee() {
   var response;

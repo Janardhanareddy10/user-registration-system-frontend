@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://51.20.137.91/api/users";
+const API_URL = "http://16.171.241.113/api/users";
 
 // ✅ Fetch all users
 export const fetchUsers = createAsyncThunk("users/fetchUsers", async () => {
